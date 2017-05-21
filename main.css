@@ -5,10 +5,6 @@ html {
 
 body {
     background: #fff;
-    background-image: url(screenshots/profpic.gif);
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: bottom right;
     padding: 2em 2em 4em;
 }
 
