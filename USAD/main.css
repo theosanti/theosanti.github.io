@@ -40,9 +40,9 @@ h6{
 }
 
 em{
-    font-weight: bold;
-    font-family: "Baskerville";
-    color: gray;
+    font-weight: bold ! important;
+    font-family: "Baskerville" ! important;
+    color: gray ! important;
 }
 
 div {
