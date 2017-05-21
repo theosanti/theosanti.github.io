@@ -1,0 +1,60 @@
+html {
+    background: #0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    background-image: url(screenshots/profpic0.gif);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom right;
+    padding: 2em 2em 4em;
+}
+
+ul{
+    line-height: 1.2;
+    list-style:none;
+    font-family: "Roboto";
+    font-size: 100%;
+    color: silver;
+}
+
+a{
+    font-weight: bolder;
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+p1{
+    color: silver;
+    font-size: 110%;
+}
+
+p2{
+    font-size: 90%;
+    font-family: "Roboto";
+    color: silver;
+}
+
+h6{
+    font-family: "Roboto" ! important;
+    color: silver ! important;
+}
+
+em{
+    font-weight: 600;
+    font-family: "Rosalind Serif";
+    color: gray;
+}
+
+div {
+    font-family: "Rosalind Serif";
+}
+
+img {
+    display: block;
+    margin: 1.3em auto;
+    max-width: 100%;
+}
