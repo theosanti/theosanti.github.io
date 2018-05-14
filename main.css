@@ -1,0 +1,171 @@
+@font-face {
+	font-family: bodya;
+	src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: bodyb;
+	src: url(fonts/AktivGrotesk/AktivGrotesk.ttf);
+}
+
+@font-face {
+	font-family: desc;
+	src: url(fonts/AJensonPro/AJensonPro-LtCapt.otf);
+}
+
+/* About */
+
+html { 
+  background: url(screenshots/Work.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#abouta{
+    fill: transparent;
+    position: fixed;
+    background-color: whitesmoke;
+    
+    margin-top: 4%;
+    padding: 3%;
+    border: none;
+    box-shadow: 0px 0px 10px whitesmoke;
+    
+    transition: 1s;
+    
+    color: transparent;
+    width: 35%;
+    
+    font-size: 95%;
+}
+
+#aboutb{
+    font-family: desc;
+    position: fixed;
+    background-color: transparent;
+    
+    margin-top: 4%;
+    padding: 10%;
+    border: none;
+    
+    color: black;
+    font-size: 100%;
+    line-height: 2.5;
+    
+    z-index: 0;
+    
+    text-overflow: ellipsis;
+    width: 35%;
+    text-align: center;
+    color: gray;
+    line-height: 1.5;
+}
+
+#aboutc{
+    position: fixed;
+    background-color: transparent;
+    
+    margin-top: 4%;
+    padding: 3%;
+    border: none;
+    
+    transition: 1s;
+    
+    color: black;
+    
+    z-index: 1;
+    width: 35%;
+    
+    letter-spacing: 0.5px;
+    
+    font-size: 95%;
+}
+
+#aboutc:hover{
+    color: white;
+    text-shadow: 0 0 10px dodgerblue;
+    fill: white;
+    
+    transition: 0.5s;
+}
+
+#aboutz{
+    border: none;
+    
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    
+    z-index: 2;
+}
+
+#scrollright{
+    fill: white;
+    font-size: 200%;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    text-shadow: 0 0 10px dodgerblue;
+}
+
+svg{
+    border: none;
+}
+
+#contact {
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-bottom: -55%;
+}
+
+#location {
+    font-size: 19px;
+    margin-bottom: -45%;
+    letter-spacing: 1px;
+}
+
+svg path {
+    fill: transparent;
+}
+
+
+/* Body */
+
+section{
+    height: 90vh;
+    width: 113%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+
+.description{
+    font-family: bodyb;
+    background-color: whitesmoke;
+    width: 45%;
+    margin: 5vh 0 5vh 40%;
+    padding: 5%;
+    
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    font-size: 90%;
+}
+
+#description{
+    margin: -60% -5%;
+    font-size: 63px;
+}
+
+#x{background-image: url(screenshots/profpic0.gif); background-position: 0% 70%;}
+#a0{background-image: url(screenshots/00.jpeg);}
+#a1{background-image: url(screenshots/01.jpeg);}
+#a3{background-image: url(screenshots/03.jpeg);}
+#a5{background-image: url(screenshots/05.jpeg);}
+#a6{background-image: url(screenshots/06.jpeg);}
+#a7{background-image: url(screenshots/07.jpeg);}
+#a9{background-image: url(screenshots/09.jpeg);}
+#a10{background-image: url(screenshots/10.jpeg);}
+#a12{background-image: url(screenshots/12.jpeg);}
+#a13{background-image: url(screenshots/13.jpeg);height: 100vh;}
